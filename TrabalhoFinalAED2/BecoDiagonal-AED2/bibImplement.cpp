@@ -41,27 +41,13 @@ void inserir(TArvoreBin &a, TNo *&no, TItem i){
     }
 }
 
-void percorrerINOrdem(TNo *&no){
+void mostrarprod(TNo *&no){
     if(no!=NULL){
-        percorrerINOrdem(no->esquerda);
-        cout << no->item.chave << ", "; // operação a ser realizada! É o que conseguimos perceber na saída.
-        percorrerINOrdem(no->direita);
-    }
-}
-
-void percorrerPreOrdem(TNo *&no){
-    if(no!=NULL){
-        cout << no->item.chave << ", ";
-        percorrerPreOrdem(no->esquerda);
-        percorrerPreOrdem(no->direita);
-    }
-}
-
-void percorrerPosOrdem(TNo *&no){
-    if(no!=NULL){
-        percorrerPosOrdem(no->esquerda);
-        percorrerPosOrdem(no->direita);
-        cout << no->item.chave << ", ";
+        mostrarprod(no->esquerda);
+        cout << "--==|| Produto: " << no->item.nome << " | ";
+        cout << "Galeões: " << no->item.preco << " | ";
+        cout << "Código: " << no->item.chave << " ||==--"<<endl;
+        mostrarprod(no->direita);
     }
 }
 
@@ -106,7 +92,7 @@ cout << "                      --==4-Para sair do Beco Diagonal==--"<<endl<<endl
 int lendoArq(string nomeArq, TArvoreBin &p){
 
     //fstream arq(nomeArq,ios::out);// instanciando e abrindo o arquivo
-    fstream arq("dados.txt");// instanciando e abrindo o arquivo
+    fstream arq("olivaras.txt");// instanciando e abrindo o arquivo
 
     if (arq.is_open()){
         string registro, token;
@@ -158,10 +144,10 @@ int lendoArq(string nomeArq, TArvoreBin &p){
 
 void Olivaras(TArvoreBin &p){
 system("cls");
-lendoArq("dados.txt",p);
-percorrerINOrdem(p.raiz);
+lendoArq("olivaras.txt",p);
+mostrarprod(p.raiz);
 int i;
-cin >> i;
+cin >>i;
 }
 
 void FloreioseBorroes(TArvoreBin &p){
