@@ -1,0 +1,5 @@
+Gabriel;1;38
+Aline;2;35
+Juca;1;55
+Juca;1;55
+Juca;1;55
