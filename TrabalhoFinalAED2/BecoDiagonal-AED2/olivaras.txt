@@ -1,4 +1,4 @@
-Azevinho e Pena de FEnix;20;1
+Azevinho e Pena de Fenix;20;1
 Salgueiro e Pelo de Unicornio;22;2
 Videira e Fibra de Dragao;25;3
 Salgueiro e Pelo de Testralio;19;4
