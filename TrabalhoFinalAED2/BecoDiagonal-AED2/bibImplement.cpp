@@ -41,27 +41,13 @@ void inserir(TArvoreBin &a, TNo *&no, TItem i){
     }
 }
 
-void percorrerINOrdem(TNo *&no){
+void mostrarprod(TNo *&no){
     if(no!=NULL){
-        percorrerINOrdem(no->esquerda);
-        cout << no->item.chave << ", "; // operação a ser realizada! É o que conseguimos perceber na saída.
-        percorrerINOrdem(no->direita);
-    }
-}
-
-void percorrerPreOrdem(TNo *&no){
-    if(no!=NULL){
-        cout << no->item.chave << ", ";
-        percorrerPreOrdem(no->esquerda);
-        percorrerPreOrdem(no->direita);
-    }
-}
-
-void percorrerPosOrdem(TNo *&no){
-    if(no!=NULL){
-        percorrerPosOrdem(no->esquerda);
-        percorrerPosOrdem(no->direita);
-        cout << no->item.chave << ", ";
+        mostrarprod(no->esquerda);
+        cout << "--==|| Produto: " << no->item.nome << " | ";
+        cout << "Galeões: " << no->item.preco << " | ";
+        cout << "Código: " << no->item.chave << " ||==--"<<endl;
+        mostrarprod(no->direita);
     }
 }
 
@@ -105,8 +91,8 @@ cout << "                      --==4-Para sair do Beco Diagonal==--"<<endl<<endl
 // LENDO DO ARQUIVO E UTILIZANDO NA MEMÓRIA
 int lendoArq(string nomeArq, TArvoreBin &p){
 
-    //fstream arq(nomeArq,ios::out);// instanciando e abrindo o arquivo
-    fstream arq("dados.txt");// instanciando e abrindo o arquivo
+    fstream arq(nomeArq.c_str());// instanciando e abrindo o arquivo
+    //fstream arq("olivaras.txt");// instanciando e abrindo o arquivo
 
     if (arq.is_open()){
         string registro, token;
@@ -157,27 +143,43 @@ int lendoArq(string nomeArq, TArvoreBin &p){
 }
 
 void Olivaras(TArvoreBin &p){
+string arq = "olivaras.txt";
 system("cls");
-lendoArq("dados.txt",p);
-percorrerINOrdem(p.raiz);
+lendoArq(arq,p);
+mostrarprod(p.raiz);
+int i;
+cin >>i;
+}
+
+void FloreioseBorroes(TArvoreBin &p){
+string arq = "floreioseborroes.txt";
+system("cls");
+lendoArq(arq,p);
+mostrarprod(p.raiz);
 int i;
 cin >> i;
 }
 
-void FloreioseBorroes(TArvoreBin &p){
-
-}
-
 void FarmaciaMullpeppers(TArvoreBin &p){
-
+string arq = "farmaciamulpeppers.txt";
+system("cls");
+lendoArq(arq,p);
+mostrarprod(p.raiz);
+int i;
+cin >> i;
 }
 
 //procedimento para mostrar o menu, com um switch case dentro de um do while
 void menu(){
     int i;
-    TArvoreBin Aprodutos;
-    string nome="produtos";
-    criarArvoreBinVazia(Aprodutos,nome);
+    TArvoreBin Avarinhas, Alivros, Apocoes;
+    string nome="varinhas";
+    criarArvoreBinVazia(Avarinhas,nome);
+    nome="livros";
+    criarArvoreBinVazia(Alivros,nome);
+    nome="pocoes";
+    criarArvoreBinVazia(Apocoes,nome);
+
     do{
         titulo();
         lojas();
@@ -185,13 +187,13 @@ void menu(){
         cin>>i;
         switch(i){
             case 1:
-                Olivaras(Aprodutos);
+                Olivaras(Avarinhas);
             break;
             case 2:
-                FloreioseBorroes(Aprodutos);
+                FloreioseBorroes(Alivros);
             break;
             case 3:
-                FarmaciaMullpeppers(Aprodutos);
+                FarmaciaMullpeppers(Apocoes);
             break;
         }
         system("cls");
