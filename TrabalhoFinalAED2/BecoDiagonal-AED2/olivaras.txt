@@ -1,12 +1,11 @@
-
-Azevinho e Pena de Fênix;
-Salgueiro e Pelo de Unicórnio
-Videira e Fibra de Dragão
-Salgueiro e Pelo de Testrálio
-Nogueira e Fibra de Dragão
-Olmo e Fibra de Dragão
-Cerejeira e Pelo de Unicórnio
-Colubrina e Chifre de Basilisco
-Jacarandá e Cabelo de Veela
-Espinheiro-Negro e Bigode de Trasgo
-Freixo e Chifre de Serpente Chifruda
+Azevinho e Pena de Fênix;20;1
+Salgueiro e Pelo de Unicórnio;22;2
+Videira e Fibra de Dragão;25;3
+Salgueiro e Pelo de Testrálio;19;4
+Nogueira e Fibra de Dragão;25;5
+Olmo e Fibra de Dragão;30;6
+Cerejeira e Pelo de Unicórnio;28;7
+Colubrina e Chifre de Basilisco;21;8
+Jacarandá e Cabelo de Veela;20;9
+Espinheiro-Negro e Bigode de Trasgo;26;10
+Freixo e Chifre de Serpente Chifruda;24;11
