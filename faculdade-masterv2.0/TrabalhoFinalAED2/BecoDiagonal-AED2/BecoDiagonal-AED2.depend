@@ -1,0 +1,70 @@
+# depslib dependency file v1.0
+1574891359 source:c:\users\julia\documents\ifmg\2 - período\aed2\trabalhofinalaed2\becodiagonal-aed2\main.cpp
+	<iostream>
+	"bibAssinaturas.h"
+
+1574891400 c:\users\julia\documents\ifmg\2 - período\aed2\trabalhofinalaed2\becodiagonal-aed2\bibassinaturas.h
+
+1574891767 source:c:\users\julia\documents\ifmg\2 - período\aed2\trabalhofinalaed2\becodiagonal-aed2\bibimplement.cpp
+	<iostream>
+	<stdlib.h>
+	<conio.h>
+	<fstream>
+	"bibAssinaturas.h"
+
+1575421237 source:c:\users\0027627\downloads\trabalhofinalaed2\becodiagonal-aed2\bibimplement.cpp
+	<iostream>
+	<stdlib.h>
+	<conio.h>
+	<fstream>
+	<sstream>
+	"bibAssinaturas.h"
+
+1575420656 c:\users\0027627\downloads\trabalhofinalaed2\becodiagonal-aed2\bibassinaturas.h
+
+1575420648 source:c:\users\0027627\downloads\trabalhofinalaed2\becodiagonal-aed2\main.cpp
+	<iostream>
+	"bibAssinaturas.h"
+
+1575421237 source:c:\users\0027627\documents\trabalhofinalaed2\becodiagonal-aed2\bibimplement.cpp
+	<iostream>
+	<stdlib.h>
+	<conio.h>
+	<fstream>
+	<sstream>
+	"bibAssinaturas.h"
+
+1575420656 c:\users\0027627\documents\trabalhofinalaed2\becodiagonal-aed2\bibassinaturas.h
+
+1575420648 source:c:\users\0027627\documents\trabalhofinalaed2\becodiagonal-aed2\main.cpp
+	<iostream>
+	"bibAssinaturas.h"
+
+1575475397 source:c:\users\0048842\desktop\faculdade-master\trabalhofinalaed2\becodiagonal-aed2\bibimplement.cpp
+	<iostream>
+	<stdlib.h>
+	<conio.h>
+	<fstream>
+	<sstream>
+	"bibAssinaturas.h"
+
+1575463364 c:\users\0048842\desktop\faculdade-master\trabalhofinalaed2\becodiagonal-aed2\bibassinaturas.h
+
+1575463364 source:c:\users\0048842\desktop\faculdade-master\trabalhofinalaed2\becodiagonal-aed2\main.cpp
+	<iostream>
+	"bibAssinaturas.h"
+
+1575475398 source:e:\faculdade-master\trabalhofinalaed2\becodiagonal-aed2\bibimplement.cpp
+	<iostream>
+	<stdlib.h>
+	<conio.h>
+	<fstream>
+	<sstream>
+	"bibAssinaturas.h"
+
+1575463364 e:\faculdade-master\trabalhofinalaed2\becodiagonal-aed2\bibassinaturas.h
+
+1575463364 source:e:\faculdade-master\trabalhofinalaed2\becodiagonal-aed2\main.cpp
+	<iostream>
+	"bibAssinaturas.h"
+
