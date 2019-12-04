@@ -3,6 +3,7 @@
 using namespace std;
 
 int main(){
+    cout << "vaitomarnocu";
     setlocale(LC_ALL,"Portuguese");
     menu();
 
