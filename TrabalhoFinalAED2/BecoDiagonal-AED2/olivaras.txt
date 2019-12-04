@@ -1,0 +1,3 @@
+Varinha1;5;1
+Varinha2;8;2
+Varinha3;6;3
