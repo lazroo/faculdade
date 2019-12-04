@@ -1,12 +1,12 @@
 Antidoto Para Venenos Comuns;12;25
 Cura para Furunculos;11;26
 Pocao do Esquecimento;14;27
-Poção Herbicida;13;28
-Poção do Sono Simples;15;29
-Poção para Acordar;14;30
+Pocao Herbicida;13;28
+Pocao do Sono Simples;15;29
+Pocao para Acordar;14;30
 Facidicida;15;31
-Poção Morto-Vivo;20;32
+Pocao Morto-Vivo;20;32
 Esquelesce;17;33
-Antídoto de Mandrágora;23;34
+Antidoto de Mandragora;23;34
 Amortentia;50;35
-Poção da Beleza;16;36
+Pocao da Beleza;16;36
