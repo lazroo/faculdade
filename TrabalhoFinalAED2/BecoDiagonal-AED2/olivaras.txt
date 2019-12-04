@@ -1,3 +1,12 @@
-Varinha1;5;1
-Varinha2;8;2
-Varinha3;6;3
+
+Azevinho e Pena de Fênix;
+Salgueiro e Pelo de Unicórnio
+Videira e Fibra de Dragão
+Salgueiro e Pelo de Testrálio
+Nogueira e Fibra de Dragão
+Olmo e Fibra de Dragão
+Cerejeira e Pelo de Unicórnio
+Colubrina e Chifre de Basilisco
+Jacarandá e Cabelo de Veela
+Espinheiro-Negro e Bigode de Trasgo
+Freixo e Chifre de Serpente Chifruda
